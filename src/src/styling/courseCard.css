@@ -1,0 +1,49 @@
+.course-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  flex: 1 0 20%;
+  margin: 20px;
+  justify-content: space-evenly;
+}
+
+.course-card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 100%;
+}
+
+.course-card > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 100%;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: turquoise;
+}
+.course-card-content p {
+  flex: 0 1 0;
+  align-self: center;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: turquoise;
+}
+.course-card:hover {
+  border: 2px solid greenyellow;
+  cursor: pointer;
+}
+.course-card .duration {
+  font-size: 0.9rem;
+  display: flex;
+  flex: 0 1 0;
+  font-weight: lighter;
+  background-color: rgb(255, 255, 255, 0.1);
+  color: rgb(255, 255, 255, 0.7);
+}
