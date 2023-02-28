@@ -4,7 +4,7 @@ Submitted by: **Maryam Khan**
 
 This web app: **displays web/software development related courses that are free and under 90 minutes long. Topics include data structures and algorithms, design patterns, basics of programming, and more!**
 
-Time spent: **5** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
